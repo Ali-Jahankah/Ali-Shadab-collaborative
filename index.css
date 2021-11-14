@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-weight: bolder;
+}
+body,
+html {
+  min-height: 100vh;
+}
+body {
+  background: linear-gradient(rgb(194, 78, 78), white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main {
+  flex: 1 0 auto;
+}
+.input {
+  font-size: 2vw;
+  padding: 0.2em;
+}
+.footer {
+  flex-shrink: 0;
+  padding: 0.5em;
+  font-size: 24px;
+  background: rgb(26, 23, 23);
+  color: rgb(255, 221, 179);
+  text-align: center;
+}
